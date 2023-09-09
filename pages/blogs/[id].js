@@ -13,16 +13,16 @@ const SinglePost = () => {
   return (
     <>
       <Head>
-        <title>{post.title}</title>
+        <title>{post?.title}</title>
       </Head>
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='TIPS & TRICKS / JANUARY 12, 2022' /> <br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <Title title={post?.title} className='title-bg' />
             <div className='img py'>
-              <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+              <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
               <TitleSm title='Phasellus at magna - elit tristique lacinia. Integer a justo vitae arcu fermentum consequat.' />
