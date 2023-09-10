@@ -26,9 +26,9 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <TitleLogo title='Gurus' caption='i' className='logobg' />
-          <h1 className={`hero-title ${deviceWidth ? 'bigE' : '' }`}>WE BUILD DIGITAL EXPERIENCES</h1>
+          <h1 className={`hero-title ${!deviceWidth ? 'bigE' : '' }`}>WE BUILD DIGITAL EXPERIENCES</h1>
 
-          <div className='sub-heading'>
+          <div className={`sub-heading ${deviceWidth ? 'flex-col' : ''}`}>
             <TitleSm title='SOFTWARES' /> <span>.</span>
             <TitleSm title='ML and DS' /> <span>.</span>
             <TitleSm title='INTERNSHIPS' />
