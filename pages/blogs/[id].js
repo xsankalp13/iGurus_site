@@ -9,7 +9,7 @@ const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
   const post = blogdata.find((post) => post.id === parseInt(id))
-  if(!page) {
+  if(!post) {
     return <div>404</div>
   }
   return (
