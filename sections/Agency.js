@@ -16,11 +16,11 @@ const Agency = () => {
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='Turning your business ideas into smart digital products since 2017' />
+              <p className='desc-p'>Our Vision is To be recognized as valued resource in delivering quality, timely delivers of product along with filfuling of the client expectation and bring the culture of training and growing together in IT.</p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
+                  <h1 className='indigo'>5+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
@@ -45,7 +45,7 @@ const Agency = () => {
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>Our mission is to consistently provide innovative, world-class software solutions that effectively address real-world challenges for our valued clients. We achieve this by stedfastly upholding th iGurus code of Ethics, unwaveringly fulfiling our commitments, and aligning out work with our visionary statements.</p>
             </div>
           </div>
         </div>

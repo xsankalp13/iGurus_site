@@ -55,7 +55,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
-      <ShowCase />
+      {/* <ShowCase /> */}
       <Brand />
 
       <div className='text-center'>

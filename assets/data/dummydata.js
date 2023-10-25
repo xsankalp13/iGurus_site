@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "5+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "50+ cuccessful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -30,53 +30,60 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Artificial Intelligence",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Machine Learning",
     cover: "../images/e3.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Software Development",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
+  {
+    id: 5,
+    title: "Data Science",
+    cover: "../images/e4.jpg",
+    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+  }
 ]
 export const testimonial = [
   {
-    id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    "id": 1,
+    "name": "amit sharma",
+    "cover": "../images/e1.jpg",
+    "post": "ceo at seven consulting",
+    "desc": "Seven Consulting's exceptional tech support and expertise have been instrumental in our success. Their unwavering commitment to excellence and problem-solving abilities are unmatched. We highly recommend their services to anyone in the tech industry."
   },
   {
-    id: 2,
-    name: "Diana Green",
-    cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    "id": 2,
+    "name": "priya patel",
+    "cover": "../images/e2.jpg",
+    "post": "director of operations at tech innovators",
+    "desc": "Tech Innovators has been a game-changer for our organization. Their innovative tech solutions and dedication to our tech projects have significantly improved our operations and efficiency. We wholeheartedly endorse their tech services."
   },
   {
-    id: 3,
-    name: "Alexander Black",
-    cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    "id": 3,
+    "name": "rajesh kumar",
+    "cover": "../images/e3.jpg",
+    "post": "founder of innovateIT Solutions",
+    "desc": "InnovateIT Solutions has been a catalyst for tech growth. Their visionary tech approach and technical expertise have been pivotal in our tech success. They consistently deliver top-notch tech solutions, and we couldn't be more pleased with their tech services."
   },
   {
-    id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  },
+    "id": 4,
+    "name": "neha singh",
+    "cover": "../images/e4.jpg",
+    "post": "coo at quantum enterprises",
+    "desc": "Quantum Enterprises has greatly benefited from Seven Consulting's strategic tech guidance. Their ability to analyze complex tech data and offer actionable tech insights is truly impressive. They've been instrumental in our tech decision-making process, and we highly recommend their tech consulting services."
+  }
 ]
+
 export const showcase = [
   {
     id: 1,
