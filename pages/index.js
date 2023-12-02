@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>iGurus Agency</title>
+        <title>iGurus Consultancy</title>
       </Head>
       <Hero />
     </>

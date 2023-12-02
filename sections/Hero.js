@@ -1,11 +1,12 @@
 import { home } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import Expertise from "@/components/Expertise"
-import ShowCase from "@/components/ShowCase"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React, { useEffect, useState } from "react"
+import IguruLogo from "@/assets/images/iguru-logo.png"
+import Image from "next/image"
 
 const Hero = () => {
   const [deviceWidth, setDeviceWidth] = useState(false);
@@ -23,9 +24,15 @@ const Hero = () => {
   },[]);
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <TitleLogo title='Gurus' caption='i' className='logobg' />
+      <section className='hero hero_con'>
+        <video autoPlay loop muted className='hero-video' src='https://assets.mixkit.co/videos/preview/mixkit-work-team-working-hard-in-the-office-33429-large.mp4'>
+        </video>
+        <div className='container '>
+
+          {/* <TitleLogo title='Gurus' caption='i' className='logobg' /> */}
+          <Image src={IguruLogo} height={ !deviceWidth? 90*2 : 50*2 } width={!deviceWidth? 270*2 : 120*2} className="hero-logo" alt="igurus logo "/>
+
+          {/* <Image src={IguruLogo}/> */}
           <h1 className={`hero-title ${!deviceWidth ? 'bigE' : '' }`}>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className={`sub-heading ${deviceWidth ? 'flex-col' : ''}`}>

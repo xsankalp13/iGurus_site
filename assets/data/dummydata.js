@@ -26,31 +26,38 @@ export const expertise = [
     id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Website audit" }],
+    ptag: "We offer a wide range of web design and development services, including UI/UX design, responsive web development, and mobile-first design. We also provide custom illustrations and icons, website audit, and hosting services.",
   },
   {
     id: 2,
     title: "Artificial Intelligence",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    // desc for Ai
+    desc: [{ text: "Generative AI"}, {text: "LLMs"}, {text: "NLP"}],
+    ptag: "We offer a wide range of artificial intelligence services, including generative AI, LLMs, and natural language processing. We also provide artificial intelligence consulting services and artificial intelligence model deployment services.",
   },
   {
     id: 3,
     title: "Machine Learning",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    //desc for machine learning
+    desc: [{ text: "Deep Learning"}, {text: "Computer Vision"}, {text: "NLP"}],
+    ptag: "We offer a wide range of machine learning services, including deep learning, computer vision, and natural language processing. We also provide machine learning consulting services and machine learning model deployment services.",
   },
   {
     id: 4,
     title: "Software Development",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Custom software development" }, { text: "Software testing" }, { text: "Software maintenance" }],
+    ptag: "We offer a wide range of software development services, including custom software development, software testing, and software maintenance. We also provide software migration and re-engineering services.",
   },
   {
     id: 5,
     title: "Data Science",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Data analysis" }, { text: "Data visualization" }, { text: "Data mining" }],
+    ptag: "We offer a wide range of data science services, including data analysis, data visualization, and data mining. We also provide data science consulting services and data science model deployment services.",
   }
 ]
 export const testimonial = [
