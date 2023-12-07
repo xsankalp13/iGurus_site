@@ -56,7 +56,7 @@ const Header = () => {
               Blog
             </Link>
             <Link href='/contact'>
-              <button className='button-primary'>book a consultation</button>
+              <button className='button-primary'>Contact Us</button>
             </Link>
           </nav>
           {

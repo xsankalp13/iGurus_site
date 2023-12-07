@@ -19,6 +19,9 @@
     z-index: -1;
     overflow-x: hidden !important;
   }
+  #heretheh2{
+    color: #171e20;
+  }
   .hero_con{
     position: relative;
   }
@@ -133,11 +136,83 @@
     @include flex(center, space-between, none);
   }
 }
+.card-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 1200px;
+  z-index: 1;
+  scale: 0.95;
+}
+.hero-content{
+  overflow: hidden;
+}
+.tag-exp{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card-container .card{
+  position: relative;
+  min-height: 700px;
+  flex-direction: column;
+  margin: 20px 0;
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid rgba(173, 8, 255, 1);
+  border-left: 1px solid rgba(242, 5, 115, 1);
+  backdrop-filter: blur(5px);
+}
+.card-container .card .content{
+  padding: 20px;
+  transition: 0.5s;
+}
+.card-container .card .content h2{
+  position: absolute;
+  top:-30px;
+  right:30px;
+  font-size: 8em;
 
+  color:rgba(243, 239, 239, 0.7);
+  pointer-events: none;
+  filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+}
+.card-container .card .content h3{
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+.card-container .card .content p{
+  font-size: 0.9em;
+  color: #ffffffc9;
+  font-weight: 300;
+}
+.innerTags{
+  position: relative;
+  display: inline-block;
+  margin-top:15px;
+  
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.card-img01{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+
+}
 //testimonial
 .testimonial {
-  .card {
-    padding: 20px;
+  .card{
+    padding: 30px;
   }
   .cards {
     margin-top: $xll;

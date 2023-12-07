@@ -1,39 +1,41 @@
 import Link from "next/link"
+import Image from "next/image"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
 export const Card = ({ data, caption, show, path }) => {
   return (
-    <>
-      <div className='card'>
-        <div className='card-img'>
+    <div className="card-container">
+      <div className="card" key={data.id}>
+        <div>
           <Link href={`${path}/${data.id}`}>
-            <img src={data.cover} alt={data.title} />
+            <img
+            src={data.cover}
+            alt={data.title}
+            height={300}
+            className="card-img01"
+            
+            />
           </Link>
         </div>
-        <div className='card-details'>
-          <Link href={`${path}/${data.id}`} className='title-link'>
-            <TitleSm title={data.title} />
-          </Link>
-          {caption && (
-            <Link href={`${path}/${data.id}`}>
-              {caption} <HiOutlineArrowRight className='link-icon' />
-            </Link>
-          )}
-          <div className='flex'>
-            <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
-          </div>
+        <div className="content">
+          <h2>{'0' + data.id}</h2>
 
-          {show && (
-            <ul>
-              {data.desc.map((text, i) => (
-                <li key={i}> - {text.text}</li>
-              ))}
-            </ul>
-          )}
+          <h3 id="heretheh2">{data.title}</h3>
+          <p>{data.ptag}</p>
         </div>
+        <div className="tag-exp">
+          { show && 
+            data.desc.map((text,i) => {
+              return (
+                <div key={i + 'hhh'} className="innerTags">
+                  <span>{text.text}</span>
+                </div>
+              )
+            })
+          }
+        </div> 
       </div>
-    
-    </>
+    </div>
   )
 }
