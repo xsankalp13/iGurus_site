@@ -18,7 +18,7 @@ const Agency = () => {
             <div className='left w-60 py'>
               <TitleSm title='Turning your business ideas into smart digital products since 2017' />
               <p className='desc-p'>Our Vision is To be recognized as valued resource in delivering quality, timely delivers of product along with filfuling of the client expectation and bring the culture of training and growing together in IT.</p>
-              <div className='grid-3'>
+              <div className='grid-4'>
                 <div className='box'>
                   <h1 className='indigo'>5+</h1>
                   <h3>Years of experience</h3>

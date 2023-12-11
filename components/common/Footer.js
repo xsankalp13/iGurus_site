@@ -59,7 +59,7 @@ const Footer = () => {
             </ul>
             <ul>
               <h3>CONNECT</h3>
-              <div className='connect'>
+              <div className='connecticon'>
                 <li>
                   <Link href='/'>
                     <BsFacebook size={25} />

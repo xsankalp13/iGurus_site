@@ -5,7 +5,7 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React, { useEffect, useState } from "react"
-import IguruLogo from "@/assets/images/iguru-logo.png"
+import IguruLogo from "@/assets/images/iguru.png"
 import Image from "next/image"
 
 const Hero = () => {
@@ -59,16 +59,16 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <Expertise />
+      <Expertise  />
       <Banner />
       <Testimonial />
       {/* <ShowCase /> */}
       <Brand />
 
-      <div className='text-center'>
+      {/* <div className='text-center'>
         <Title title='Latest news & articles' />
       </div>
-      <BlogCard />
+      <BlogCard /> */}
     </>
   )
 }

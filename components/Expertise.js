@@ -12,7 +12,7 @@ const Expertise = () => {
             <Title title='Our expertise' />
             <p>Pioneering IT Solutions with Expertise in Software, ML, and Web Tech. Your Trusted Partner Nationwide.</p>
           </div>
-          <div className='hero-content grid-3'>
+          <div className='hero-content grid-3 expHandle'>
             {expertise.map((item) => (
               <Card data={item} key={item.id} caption='Details' show={true} />
             ))}

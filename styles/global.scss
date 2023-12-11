@@ -1,4 +1,8 @@
 /*  Hero Section */
+*::selection{
+  background-color: white;
+  color: #000;
+}
 .hero {
   text-align: center;
   padding: $xl-6 0;
@@ -127,36 +131,47 @@
 
 //banner
 .banner {
-  margin-top: $xll-3;
+  margin-top: 80px;
   .container {
-    border-radius: 50px 0 50px 0;
-    padding: $xll;
-    background: rgb(192, 90, 255);
+    border-radius: 20px;
     background: $gradient;
+    padding: 20px 80px;
     @include flex(center, space-between, none);
   }
+}
+.flexingBanner{
+  display: flex;
+}
+.expHandle{
+  padding: 20px;
 }
 .card-container{
   position: relative;
   display: flex;
   justify-content: center;
   align-items: start;
-  max-width: 1200px;
   z-index: 1;
-  scale: 0.95;
 }
 .hero-content{
   overflow: hidden;
 }
 .tag-exp{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
+  margin-left: 5px;
+}
+.outerCardDiv{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .card-container .card{
   position: relative;
-  min-height: 700px;
+  min-height: 400px;
+  overflow: scroll;
   flex-direction: column;
   margin: 20px 0;
   box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
@@ -174,31 +189,28 @@
 }
 .card-container .card .content h2{
   position: absolute;
-  top:-30px;
-  right:30px;
-  font-size: 8em;
+  top:-10px;
+  right:10px;
+  font-size: 4em;
 
   color:rgba(243, 239, 239, 0.7);
   pointer-events: none;
   filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
 }
 .card-container .card .content h3{
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: #fff;
   z-index: 1;
 }
 .card-container .card .content p{
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #ffffffc9;
   font-weight: 300;
 }
 .innerTags{
   position: relative;
   display: inline-block;
-  margin-top:15px;
-  
   color: black;
-  border-radius: 20px;
   text-decoration: none;
   font-weight: 500;
 }
@@ -206,9 +218,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px
 
 }
+.cardLinker{
+  width: 50%;
+  height: 50%;
+}
+
 //testimonial
 .testimonial {
   .card{
@@ -272,6 +289,10 @@
     }
   }
 }
+.flexing{
+  display:flex;
+  flex-wrap: wrap;
+}
 
 //blog-card
 .blog-card {
@@ -286,6 +307,10 @@
       padding: $xll 0;
     }
   }
+}
+
+.checkthisH1{
+  font-size: 100px;
 }
 
 // footer
@@ -514,4 +539,18 @@ footer {
 .branches{
   display: flex;
   
+}
+.images{
+  width: fit-content;
+  height: fit-content;
+  
+}
+.connecticon{
+  display:  flex;
+  align-items: center;
+  gap: 20px;
+  span {
+    font-size: $sm;
+    letter-spacing: 2px;
+  }
 }

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { TitleSm } from "./common/Title"
 import Link from "next/link"
 import { testimonial } from "@/assets/data/dummydata"
@@ -31,14 +31,27 @@ function SamplePrevArrow(props) {
 }
 
 const Testimonial = () => {
+  const [deviceWidth, setDeviceWidth] = useState(false);
+  useEffect(()=> {
+    const handleResize = () => {
+      if(window.innerWidth <800) {
+        setDeviceWidth(true);
+      }else{
+        setDeviceWidth(false);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  },[]);
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: !deviceWidth? <SampleNextArrow /> : <></>,
+    prevArrow: !deviceWidth? <SamplePrevArrow />: <></>,
     responsive: [
       {
         breakpoint: 800,
