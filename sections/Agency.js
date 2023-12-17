@@ -17,7 +17,10 @@ const Agency = () => {
           <div className='content flex1'>
             <div className='left w-60 py'>
               <TitleSm title='Turning your business ideas into smart digital products since 2017' />
-              <p className='desc-p'>Our Vision is To be recognized as valued resource in delivering quality, timely delivers of product along with filfuling of the client expectation and bring the culture of training and growing together in IT.</p>
+              <p className='desc-p'>iGururs Technology Services is one of the fastest-growing IT companies having footprints in Pune and Ranchi and serving many clients across India. iGururs is a professionally managed organization, providing automated solutions for your business needs in latest Software, Machine Learning/Data Science and web technologies like Python, Java-Java EE and Mobile technologies. We provide Software Engineering and IT organizations with a range of solutions and services in the areas of Application Development, Maintenance, Embedded Systems, Software Testing and Quality Assurance.</p>
+              <p className='desc-p'>We are focused on Software and Web Design, Artificial Intelligence (AI) implementation, Mobile development, search engine optimization, Web marketing, e-Commerce, multimedia solutions, content writing, graphic design , Machine learning and Computer Vision implementation. . .</p>
+              <p className='desc-p'>Our team includes experienced, young and self-motivated software developers. We have a highly capable team of Data scientist , web consultants, creative designers, content writers, programmers and web marketing professionals who know how to deliver results.</p>
+              <p className='desc-p'>We treat each of our clients individually and In order to understand customer's requirements and provide the low cost solutions from their niche point of view, we personally let our developers interact directly with our clients and allow them to take their own decision making approach. Our ability to bundle services brings integrated sourcing to our clients, ensuring that they will get the right mix of technology and services appropriate to their requirements.</p>
               <div className='grid-4'>
                 <div className='box'>
                   <h1 className='indigo'>5+</h1>
@@ -33,8 +36,8 @@ const Agency = () => {
                 </div>
               </div>
             </div>
-            <div className='right w-40 ml'>
-              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+            <div className='right w-40 ml mt-5'>
+              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='40%' />
             </div>
           </div>
 

@@ -1,8 +1,9 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
+
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
-
+import Image from "next/image"
+import IguruLogo from "@/assets/images/iguru-logo.png"
 const Footer = () => {
   return (
     <>
@@ -10,7 +11,10 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='Gurus' caption='i' className='logobg' />
+  
+              {/* <TitleLogo title='Gurus' caption='i' className='logomin' /> */}
+              <Image src={IguruLogo} height={65} width={240} style={{marginBottom:20 }} alt="igurus logo"/>
+        
               <br />
               <span>
                 Questions? Reach us <br /> Monday - Friday from 10 AM to 7 PM <br/> Branch: Pune | Ranchi
