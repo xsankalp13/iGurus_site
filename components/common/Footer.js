@@ -3,7 +3,7 @@ import Link from "next/link"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import Image from "next/image"
-import IguruLogo from "@/assets/images/iguru-logo.png"
+import IguruLogo from "@/assets/images/iguru.png"
 const Footer = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='logo'>
   
               {/* <TitleLogo title='Gurus' caption='i' className='logomin' /> */}
-              <Image src={IguruLogo} height={65} width={240} style={{marginBottom:20 }} alt="igurus logo"/>
+              <Image src={IguruLogo} height={65} width={240} style={{marginBottom:20,height:80 }} className="" alt="igurus logo"/>
         
               <br />
               <span>
